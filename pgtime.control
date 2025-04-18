@@ -1,0 +1,9 @@
+# pgtime extension control file
+comment = 'Simplified time-series utilities (auto-partitioning, aggregates, worker)'
+default_version = '0.1'
+module_pathname = '$libdir/pgtime'
+relocatable = true
+requires = 'pg_cron' # Dependency for continuous aggregate scheduling helper
+shared_preload_libraries = 'pgtime' # REQUIRED for the background worker
+# Optional: Specify configuration parameters this extension defines
+# custom_variable_classes = 'pgtime'
