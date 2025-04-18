@@ -54,8 +54,19 @@ This extension provides SQL functions and potentially custom types/operators.
 
 ## Contributing
 
-Contributions are welcome! Please refer to the contribution guidelines (TODO: Add link or details).
+Contributions are welcome! We appreciate bug reports, feature requests, and pull requests.
+
+1.  **Bug Reports & Feature Requests:** Please submit these via the [GitHub Issues](https://github.com/0xSMW/pgtime/issues) page. Provide as much detail as possible, including steps to reproduce for bugs.
+2.  **Pull Requests:**
+    *   Fork the repository.
+    *   Create a new branch for your feature or bug fix (`git checkout -b feature/your-feature-name` or `git checkout -b fix/issue-number`).
+    *   Make your changes. Write clear, concise commit messages.
+    *   Ensure any new code is covered by tests if applicable.
+    *   Update documentation if necessary.
+    *   Push your branch and submit a pull request to the main repository via the [GitHub Pull Requests](https://github.com/0xSMW/pgtime/pulls) page.
+
+We aim to review contributions promptly.
 
 ## License
 
-(TODO: Add license information here) 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
